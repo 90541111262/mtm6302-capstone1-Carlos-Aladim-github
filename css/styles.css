@@ -1,0 +1,210 @@
+/* Estilos globais */
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0 200px; /* Margem esquerda e direita de 200 pixels */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FFFFFF; /* Fundo branco */
+    justify-content: space-between; /* Alinha o conteúdo do cabeçalho */
+}
+
+nav {
+    margin-right: 100px; /* Adiciona a margem de 100 pixels à direita do menu */
+}
+
+header .logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Letras na cor preta */
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #EDA024;
+}
+
+/* Estilos principais */
+main {
+    padding: 40px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #EDA024;
+    margin: 0;
+}
+
+/* Estilos da seção de conteúdo */
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 40px;
+    color: #193029;
+}
+
+.content p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.content hr {
+    margin: 20px 0;
+}
+
+.content h3 {
+    font-size: 30px;
+    color: #EDA024;
+    margin-bottom: 20px;
+}
+
+.content button {
+    background-color: #193029;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos da seção de formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    color: #193029;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-input,
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #193029;
+}
+
+.form-button {
+    background-color: #193029;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #DEDEDE;
+    margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    border-top: 1px solid white;
+    text-align: left;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #193029;
+}
+
+.footer-column img {
+    margin-bottom: 20px;
+}
+
+/* Ajuste do logo do rodapé */
+.footer-column img {
+    height: 40px;
+    width: auto; /* Mantém a proporção da largura */
+    margin-bottom: 10px;
+}
+
+.footer-column .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.footer-column .social-icons img {
+    max-height: 40px;
+    height: auto; /* Mantém a proporção da altura */
+}
+
+.newsletter-title {
+    font-size: 20px;
+    font-family: Helvetica;
+    margin-top: 20px;
+}
+
+.newsletter-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: Helvetica;
+}
